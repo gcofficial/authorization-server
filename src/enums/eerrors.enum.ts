@@ -1,0 +1,15 @@
+export enum EErrors {
+  more_than_n_same_letters     = 'More than %s same letters!',
+  password_must_contain        = 'The password must contain %s!',
+  cant_be_empty                = '%s cant be empty!',
+  passwords_must_mutch         = 'Confirmation password and password must match!',
+  too_much_consecutive_letters = 'Too much consecutive letters!',
+  email_exists                 = 'Sorry, that email already exists!',
+  too_much_registrations       = 'Too much registrations from one IP!',
+  invalid_activation_key       = 'Invalid activation key!',
+  invalid_email                = 'Email is invalid!',
+  incorrect_log_or_ps          = 'Incorrect username or login!',
+  frozen_account               = 'You have exceeded the limit of attempts! Your account will be frozen one day!',
+  please_activate_your_acc     = 'Please activate your account!',
+  captcha_not_equal            = 'Image verify text is incorrect!',
+}
